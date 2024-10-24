@@ -1,3 +1,5 @@
 fn main() {
-    println!("Assalamualaikum, dunya!");
+    let x: i32; // declaration without initialization
+    x = 5; // Initialization
+    print!("{}",x)
 }
