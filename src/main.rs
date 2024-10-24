@@ -1,5 +1,4 @@
 fn main() {
-    let x = 5;
-    let x = "hello";
-    print!("{}", x)
+    const PI: f64 = 3.14159265359;
+    print!("{}", PI)
 }
