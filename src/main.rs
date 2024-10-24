@@ -1,6 +1,5 @@
 fn main() {
-    let x: i32; // declaration without initialization
-    x = 5; // Initialization
-    x = 20; // Error: cannot assign twice of immutable variable
-    print!("{}",x)
+    let mut x = 10; // declaration without initialization
+    x = 20; // Possible because it is declared as mutable
+    print!("{}", x)
 }
