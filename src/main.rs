@@ -1,5 +1,5 @@
 fn main() {
-    let mut x = 10; // declaration without initialization
-    x = 20; // Possible because it is declared as mutable
+    let x = 5;
+    let x = "hello";
     print!("{}", x)
 }
