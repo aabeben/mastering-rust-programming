@@ -1,6 +1,6 @@
 fn main() {
-    let mut y = 10;
-    println!("{}", y);
-    y = 20;
-    println!("{}", y);
+    let x = 5; // Immutable variable
+    println!("{}", x);
+    let x = "Hello";
+    println!("{}", x);
 }
