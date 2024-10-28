@@ -1,6 +1,4 @@
 fn main() {
-    let x = 5; // Immutable variable
-    println!("{}", x);
-    let x = "Hello";
-    println!("{}", x);
+    const PI: f64 = 3.14159265359;
+    println!("{}", PI);
 }
