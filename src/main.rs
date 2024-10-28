@@ -1,5 +1,6 @@
 fn main() {
-    let x: i32; // Declaration without initialization
-    x = 5; // Initialization
-    println!("{}", x);
+    let y = 10;
+    println!("{}", y);
+    y = 20;
+    println!("{}", y);
 }
